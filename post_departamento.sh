@@ -1,0 +1,1 @@
+curl localhost:3000/departamentos -X POST -H "Content-Type: application/json" -d $1

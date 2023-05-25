@@ -1,0 +1,28 @@
+PARA ADICIONAR FUNCIONARIOS
+
+USANDO O POSTMAN
+{
+    "nome": "Giovanni",
+    "cargo": "Gerente de Vendas",
+    "salario": 5000.00,
+    "departamento_id": 1
+}
+
+USANDO O CMD -> NÃO ESTA FUNCIONANDO
+post_funcionario.sh '{"nome":"Arthur","cargo":"Gerente Geral", "salario":7000.00, "departamento_id":2}'
+
+
+PARA ADICIONAR DEPARTAMENTOS   
+post_departamento.sh '{"nome":"Gerencia"}'
+
+
+PARA RECUPERAR FUNCIONARIOS
+curl localhost:3000/funcionarios
+
+
+PARA RECUPERAR DEPARTAMENTOS
+curl localhost:3000/departamentos
+
+
+PARA RECUPERAR FUNCIONARIOS COM O NOME DE SEUS DEPARTAMENTOS
+curl localhost:3000/funcionariosfull
