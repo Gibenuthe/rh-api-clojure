@@ -2,7 +2,7 @@
   :description "API em Clojure para conexão em banco de dados Postgres"
   :url ""
   :license {:name "MIT"
-    :url "https://github.com/kenreilly/clojure-example/blob/master/LICENSE"}
+    :url "https://github.com/Gibenuthe/rh-api-clojure/blob/main/LICENSE"}
   :dependencies [
     [org.clojure/clojure "1.10.0"]
     [org.clojure/data.json "0.2.6"]
